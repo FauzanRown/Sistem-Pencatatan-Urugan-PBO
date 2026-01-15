@@ -12,7 +12,7 @@
 3. Latifatul Istiana – 2400018037
 
 🔗 **Link Repository**  
-https://github.com/username/Sistem-Pencatatan-Urugan-PBO
+https://github.com/Artmzyyy/Sistem-Pencatatan-Urugan-PBO
 
 ---
 
