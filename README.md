@@ -187,7 +187,13 @@ Tampilan laporan transaksi sederhana, dan disini untuk tanggalnya di generate se
 
 ## H. Penjelasan Screenshot Status Unggah Skrip di Github
 
-Screenshot Github menunjukkan bahwa seluruh skrip program telah berhasil diunggah ke repository Github. Proses pengunggahan dilakukan secara bertahap hingga mencapai versi final proyek. Hal ini menunjukkan bahwa pengembangan aplikasi dilakukan secara terstruktur dan terdokumentasi dengan baik.
+<img width="1292" height="902" alt="image" src="https://github.com/user-attachments/assets/4fcf695c-f0af-4469-8b9f-8320c20ab5fd" />
+
+Screenshot status unggah skrip pada GitHub menunjukkan bahwa seluruh file program telah berhasil diunggah ke dalam repository pada tahap akhir pengerjaan proyek. Proses pengunggahan dilakukan setelah seluruh fitur utama aplikasi selesai diimplementasikan dan diuji, sehingga kode yang diunggah merupakan versi final dari proyek.
+
+Tidak terdapat dokumentasi unggah secara bertahap karena selama proses pengembangan, pengerjaan dilakukan secara lokal oleh masing-masing anggota kelompok untuk fokus pada penyelesaian fungsi dan struktur program. Setelah aplikasi dinyatakan berjalan dengan baik dan sesuai spesifikasi, seluruh skrip kemudian dikumpulkan dan diunggah ke GitHub sebagai bentuk dokumentasi akhir dan bukti penyelesaian proyek.
+
+Meskipun dokumentasi commit tidak dilakukan secara bertahap, penggunaan GitHub tetap berfungsi sebagai media penyimpanan kode sumber, kolaborasi kelompok, serta arsip proyek yang dapat diakses kembali di kemudian hari.
 
 ## I. Analisis Pengerjaan Proyek
 
