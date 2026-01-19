@@ -13,6 +13,7 @@
 https://github.com/Artmzyyy/Sistem-Pencatatan-Urugan-PBO
 
 <img width="582" height="366" alt="image" src="https://github.com/user-attachments/assets/ab80c767-5193-45ff-9467-3246bfdcd867" />
+
 Tampilan Awal Aplikasi
 
 ## B. Persoalan Bisnis dan Deskripsi Proyek
@@ -36,7 +37,6 @@ Berdasarkan permasalahan tersebut, dibuat sebuah aplikasi pencatatan transaksi u
 
 <img width="541" height="704" alt="Class Diagram" src="https://github.com/user-attachments/assets/247ce9a5-d656-4b64-9bbe-c93d8b30648c" />
 
-
 Perancangan sistem menggunakan diagram kelas (Class Diagram) yang menggambarkan hubungan antar class dalam aplikasi. Class utama yang digunakan antara lain Supplier, Truk, Dimensi, Transaksi, dan SistemUrugan. Relasi antar class dirancang sesuai dengan konsep Pemrograman Berorientasi Objek, di mana satu supplier dapat memiliki banyak truk, dan setiap transaksi berkaitan dengan satu truk dan satu dimensi muatan.
 
 ## E. Rancangan Antar Muka Berbasis GUI
@@ -51,6 +51,7 @@ Berikut penjelasan setiap class nya.
 <img width="1330" height="954" alt="image" src="https://github.com/user-attachments/assets/c32864b0-1db0-4352-b0d8-b8d8207ac81f" />
 
 **Class Dimensi**
+
 Class Dimensi digunakan untuk menyimpan data ukuran muatan urugan tanah, yaitu panjang, lebar, dan tinggi. Class ini juga memiliki metode untuk menghitung volume muatan berdasarkan rumus panjang × lebar × tinggi.
 
 Dengan memisahkan perhitungan volume ke dalam class Dimensi, sistem menjadi lebih terstruktur dan sesuai dengan prinsip Pemrograman Berorientasi Objek, di mana setiap class memiliki tanggung jawab yang jelas.
@@ -60,6 +61,7 @@ Dengan memisahkan perhitungan volume ke dalam class Dimensi, sistem menjadi lebi
 <img width="883" height="806" alt="image" src="https://github.com/user-attachments/assets/6458b671-88ae-4d5f-8173-3499ad293744" />
 
 **Class Truk**
+
 Class Truk digunakan untuk merepresentasikan kendaraan yang digunakan dalam proses pengangkutan urugan tanah. Setiap truk memiliki nomor polisi sebagai identitas unik serta terhubung dengan satu supplier tertentu. Selain itu, class ini juga memiliki data dimensi muatan yang digunakan untuk menghitung volume urugan.
 
 Class Truk berperan sebagai objek perantara antara supplier dan transaksi, karena setiap transaksi selalu melibatkan satu truk tertentu.
@@ -69,6 +71,7 @@ Class Truk berperan sebagai objek perantara antara supplier dan transaksi, karen
 <img width="874" height="366" alt="image" src="https://github.com/user-attachments/assets/c71a638c-ff2f-4ecf-bf20-806de8bd3439" />
 
 **Class Supplier** 
+
 Class Supplier digunakan untuk merepresentasikan pihak penyedia urugan tanah. Supplier berperan sebagai pemilik atau pengelola beberapa kendaraan truk yang digunakan untuk mengangkut urugan tanah. Class ini menyimpan informasi dasar supplier, seperti nama supplier, dan menjadi penghubung antara truk dan transaksi yang terjadi.
 
 Dalam sistem, satu objek Supplier dapat berasosiasi dengan lebih dari satu objek Truk, sehingga mencerminkan kondisi nyata di mana satu supplier dapat memiliki banyak kendaraan.
@@ -78,6 +81,7 @@ Dalam sistem, satu objek Supplier dapat berasosiasi dengan lebih dari satu objek
 <img width="886" height="795" alt="image" src="https://github.com/user-attachments/assets/63945381-f1e1-4cad-852d-64b4faae4cbb" />
 
 **Class Transaksi**
+
 Class Transaksi digunakan untuk menyimpan data setiap proses pengiriman atau pencatatan urugan tanah. Transaksi mencakup informasi truk yang digunakan, volume urugan, serta data tambahan seperti tanggal transaksi. Class ini berfungsi sebagai representasi dari satu kejadian transaksi yang terjadi dalam sistem.
 
 Setiap objek Transaksi memiliki hubungan dengan satu objek Truk dan secara tidak langsung terhubung dengan supplier melalui truk tersebut.
@@ -187,4 +191,4 @@ Screenshot Github menunjukkan bahwa seluruh skrip program telah berhasil diungga
 
 ## I. Analisis Pengerjaan Proyek
 
-Pengerjaan proyek dilakukan dalam waktu yang terbatas sesuai dengan ketentuan UAS take home. Dari sisi waktu, proyek dapat diselesaikan tepat waktu dengan pembagian tugas antar anggota kelompok. Dari sisi ketercapaian spesifikasi, sebagian besar fitur utama berhasil diimplementasikan sesuai perencanaan. Dari sisi biaya, proyek tidak memerlukan biaya tambahan karena menggunakan perangkat lunak gratis. Kendala utama yang dihadapi adalah perancangan struktur class dan penerapan konsep PBO secara tepat. Ke depan, aplikasi ini masih dapat dikembangkan dengan menambahkan fitur database, pencetakan laporan, serta peningkatan tampilan antarmuka.
+Pengerjaan proyek dilakukan dalam waktu 3 minggu. Dari sisi waktu, proyek dapat diselesaikan tepat waktu dengan pembagian tugas antar anggota kelompok. Dari sisi ketercapaian spesifikasi, sebagian besar fitur utama berhasil diimplementasikan sesuai perencanaan. Dari sisi biaya, proyek tidak memerlukan biaya tambahan karena menggunakan perangkat lunak gratis. Kendala utama yang dihadapi adalah perancangan struktur class dan penerapan konsep PBO secara tepat. Ke depan, aplikasi ini masih dapat dikembangkan dengan menambahkan fitur database, pencetakan laporan, serta peningkatan tampilan antarmuka.
