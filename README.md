@@ -1,27 +1,21 @@
-##a. Identitas Proyek
+## Identitas Proyek
+- **Judul Proyek** : Sistem Pencatatan Urugan Tanah
+- **Mata Kuliah**  : Pemrograman Berorientasi Objek
+- **Dosen Pengampu** : Tedy Setiadi, M.T
+- **Tahun** : 2025
 
-- Judul Proyek
-Sistem Pencatatan Transaksi Urugan Tanah Berbasis Java
+### Anggota Kelompok
+1. Muhamad Faizin Al Bahri – 2400018057 
+2. Muhammad Fauzan Anwar – 2400018012
+3. Latifatul Istiana – 2400018037
 
-- Mata Kuliah
-Pemrograman Berorientasi Objek
 
-- Dosen Pengampu
-Tedy Setiadi, M.T
+**Link Repository**  
+https://github.com/Artmzyyy/Sistem-Pencatatan-Urugan-PBO
 
-Anggota Kelompok
-
-Nama Mahasiswa 1 – NIM
-
-Nama Mahasiswa 2 – NIM
-
-Nama Mahasiswa 3 – NIM
-
-Link Repository Github
-https://github.com/username/urugan-tanah-pbo
 
 Tampilan Awal Aplikasi
-(Terlampir screenshot menu utama aplikasi)
+<img width="582" height="366" alt="image" src="https://github.com/user-attachments/assets/ab80c767-5193-45ff-9467-3246bfdcd867" />
 
 b. Persoalan Bisnis dan Deskripsi Proyek
 
