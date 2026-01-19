@@ -6,7 +6,7 @@
 
 ### Anggota Kelompok
 1. Muhamad Faizin Al Bahri – 2400018057 
-2. Muhammad Fauzan Anwar – 2400018012
+2. Muhammad Fauzan Anwar – 2400018012 
 3. Latifatul Istiana – 2400018037
 
 **Link Repository**  
